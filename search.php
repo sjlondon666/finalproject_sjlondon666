@@ -40,8 +40,8 @@ if ($result->num_rows === 0) {
     while ($row = $result->fetch_assoc()) {
         echo "<tr>";
         echo "<td>" . htmlspecialchars($row['id']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['firstName']) . "</td>";
-        echo "<td>" . htmlspecialchars($row['lastName']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['first_name']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['last_name']) . "</td>";
         echo "<td>" . htmlspecialchars($row['email']) . "</td>";
         echo "</tr>";
     }
