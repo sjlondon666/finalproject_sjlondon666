@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>Final Project</h1>
+<h1>Full Stack Development</h1>
 <p>Samuel London</p>
 <p>12/7/2025</p>
 
